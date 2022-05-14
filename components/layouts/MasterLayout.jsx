@@ -2,11 +2,7 @@ import React, { useEffect } from 'react';
 import { BackTop } from 'antd';
 import { useDispatch } from 'react-redux';
 import { useCookies } from 'react-cookie';
-import {
-    setCartItems,
-    setCompareItems,
-    setWishlistTtems,
-} from '~/store/ecomerce/action';
+
 import PageLoader from '~/components/elements/common/PageLoader';
 import NavigationList from '~/components/shared/navigation/NavigationList';
 import MainHead from '~/components/layouts/modules/MainHead';
